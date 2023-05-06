@@ -72,3 +72,34 @@ nav ul li a:hover::after{
     font-size: 30px;
     color: chartreuse;
 }
+.img1{
+    width: 400px;
+    height: 400px;
+    margin-left: 5rem;
+}
+/* ---------------about------------- */
+#about{
+    padding: 80px 0;
+    color: aqua;
+    background-image: url(images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about_heading{
+    margin-right: 150px;
+}
+/* .about-col-2{
+    flex-basis: 60%;
+}    */
