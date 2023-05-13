@@ -91,14 +91,14 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 40%;
 }
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
 }
 .about_heading{
-    margin-right: 150px;
+    text-align: center;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -215,4 +215,32 @@ form input, form textarea{
 }
 .white{
     color: white;
+}
+@media screen and (min-width: 600px) and (max-width: 854px) {
+    .img1{
+        width: 250px;
+        height: 250px;
+        margin-left: 2rem;
+    }   
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .img1{
+        width: 200px;
+        height: 200px;
+        margin-left: 2rem;
+    }   
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    .description ul {
+        display: block ;
+        
+   } 
+   .img1{
+    width: 200px;
+    height: 200px;
+    margin-left: 1rem;
+}  
+nav{
+    display: block;
+}
 }
