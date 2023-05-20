@@ -69,8 +69,17 @@ nav ul li a:hover::after{
 .header-text2{
     /* margin-top: 100px; */
     margin-top: 80%;
-    font-size: 30px;
+    font-size: 80px;
     color: chartreuse;
+}
+
+.heading{
+    font-size: 70px;
+}
+.heading1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 50px;
 }
 .img1{
     width: 400px;
@@ -99,6 +108,7 @@ nav ul li a:hover::after{
 }
 .about_heading{
     text-align: center;
+    font-size: 80px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -111,10 +121,12 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 50px;
+    padding-left: 20px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -138,13 +150,16 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: aqua;
-    font-size: 14px;
+    font-size: 40px;
+    padding-left: 20px;
 }
 .tab-contents{
     display: none;
 }
 .tab-contents.active-tab{
     display: block;
+    font-size: 30px;
+    padding-left: 20px;
 }
 /* --------------contact------------ */
 #contact{
@@ -158,6 +173,7 @@ nav ul li a:hover::after{
 } */
 .contact-left{
     flex-basis: 35%;
+    padding-top: 20px;
 }
 .contact-right{
     flex-basis: 60%;
@@ -214,6 +230,10 @@ form input, form textarea{
 }
 .white{
     color: white;
+}
+.img2{
+    height: 600px;
+    width: 30px;
 }
 @media screen and (min-width: 600px) and (max-width: 854px) {
     .img1{
